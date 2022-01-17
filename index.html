@@ -21,18 +21,20 @@ ga('send', 'pageview');
   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
   <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
-
-    a {
-      color: #1772d0;
+    /* Blue is #1772d0 */
+    a:link, a:visited {
+      color: #68A40C;
+      background-color: transparent;
       text-decoration: none;
     }
-
-    a:focus,
     a:hover {
       color: #f09228;
-      text-decoration: none;
+      text-decoration: underline;
     }
-
+    table.no-spacing {
+      border-spacing:0; /* Removes the cell spacing via CSS */
+      border-collapse: collapse;  /* Optional - if you don't want to have double border where cells touch */
+    }
     body,
     td,
     th,
@@ -61,7 +63,7 @@ ga('send', 'pageview');
 
     name {
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 32px;
+      font-size: 42px;
     }
 
     .one {
@@ -89,7 +91,7 @@ ga('send', 'pageview');
       background-color: #ffffd0;
     }
   </style>
-  <link rel="icon" type="image/png" href="seal_icon.png">
+  <link rel="shortcut icon" href="infinity.ico">
   <title>Wenqing Yan</title>
   <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -99,46 +101,51 @@ ga('send', 'pageview');
   <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
     <tr>
       <td>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="5">
           <tr>
-            <td width="67%" valign="middle">
+            <td width="80%" valign="middle">
               <p align="left">
                 <name>Wenqing Yan</name>
               </p>
               <p> Currently, I am a <s>first</s> <s>second</s> third year Ph.D. student at the Uppsala University under the supervision of Prof. <a href="http://user.it.uu.se/~chrohner/" >Christian Rohner</a> and Prof. <a href="https://katalog.uu.se/profile/?id=N2-279" >Thiemo Voigt</a>.
-              <p> I received an M.S. degree in Information and Network Engineering from <a href="https://www.kth.se/en" >KTH Royal Institute of Technology</a> in 2018, advised by Prof. <a href="https://www.kth.se/profile/stadler" >Rolf Stadler</a>, and I graduated with a B.Eng. degree in Communication Engineering from Beijing Jiaotong University, China, in 2016.
-              </p>
+              <p> I received an M.S. degree in Information and Network Engineering from <a href="https://www.kth.se/en" >KTH Royal Institute of Technology</a> in 2018, advised by Prof. <a href="https://www.kth.se/profile/stadler" >Rolf Stadler</a>, and I graduated with a B.Eng. degree in Communication Engineering from Beijing Jiaotong University, China, in 2016. </p>
+            </td>
+            <td width="20%">
+              <img src="Yan_Wenqing.png" height="200">
+            </td>
+          </tr>
+          <tr>
+            <td width="80%" valign="middle">
+              <hr>
               <p>
-                                </p>
-
                 I am passionate about exploring new technologies to allow for a future of ubiquitous sensing and sustainable development of the IoT. I have been involved in designing small devices that can sense and communicate without the use of any batteries, and harvest energy under challenging conditions to continuously power themselves. My experience includes circuit design for energy harvesting sensors, signal processing, programming of embedded controllers, wireless networking, and to some extent machine learning - to make inferences about the physical environment from sensor data.
-
-            <!--
-                              a future sustainable deployment of IoT. This includes designing
-
-                sustainable networked systems to allow for a future widespread deployment of IoT devices. My current work is focused on designing low-power and energy harvesting wireless sensors from the ground-up. Specifically, I design hardware for such systems, process signals, program embedded controllers, and for applicational purposes; employ machine learning techniques to make infererences about the physical environment.
-              -->
               </p>
-              <p>
-                                 <!-- <<mark>I am currently on the lookout for new and exciting research opportunities!<mark>
-              </p>
-               <!-- <p>
-                  <mark>I am on the lookout for opportunities.<mark>
-              </p> -->
-              <p align=left>
+              <hr>
+              <p align="left">
                 <br> [<a href="./wenqingyan_cv.pdf" target="_blank">Curriculum Vitae</a>] (updated June 3, 2020)
                 <br>[<a href="mailto:wenqing.yan@it.uu.se" >Email: wenqing.yan[at]it.uu.se</a>]
                 <br>
                 <br><a href='https://www.linkedin.com/in/wenqing-yan'><img src='linkedin.png' /></a>
               </p>
             </td>
-            <td width="30%">
-              <img src="Yan_Wenqing.png">
-            </td>
           </tr>
-                  <table width="100%" align="center" border="0" cellspacing="1" cellpadding="20">
+            <!--
+                              a future sustainable deployment of IoT. This includes designing
+
+                sustainable networked systems to allow for a future widespread deployment of IoT devices. My current work is focused on designing low-power and energy harvesting wireless sensors from the ground-up. Specifically, I design hardware for such systems, process signals, program embedded controllers, and for applicational purposes; employ machine learning techniques to make infererences about the physical environment.
+              -->
+              <!-- </p> -->
+              <!-- <p> -->
+                                 <!-- <<mark>I am currently on the lookout for new and exciting research opportunities!<mark>
+              </p>
+               <!-- <p>
+                  <mark>I am on the lookout for opportunities.<mark>
+              </p> -->
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="1" cellpadding="5">
           <tr>
-             <td width="100%" valign="middle">
+            <td width="100%" valign="middle">
             <heading>Recent news</heading>
                   <ul>
                   <!-- <li>January 2020: Accepted for an <a href="https://www.mpi-sws.org/people/asoleima/" >internship</a> position at the Max Planck Institute for Software Systems (MPI-SWS) under the supervision of Prof. Peter Druschel</li> <br />
@@ -151,18 +158,21 @@ ga('send', 'pageview');
                   </ul>
             </td>
           </tr>
-        <table width="100%" align="center" border="0" cellspacing="-10" cellpadding="20">
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="-10" cellpadding="5">
           <tr>
              <td width="100%" valign="middle">
             <heading>Awards and honors</heading>
                   <ul>
+                  <li>Best Poster Award, together with Master student Daniel Nilsson <a href="https://sensys.acm.org/2021/" >ACM SenSys 2021</a></li><br />
                   <li>Best Poster Award,  <a href="https://sensys.acm.org/2020/program/award.html" >ACM SenSys 2020</a></li><br />
                   <li>Best Ph.D. Forum Award, <a href="https://sensys.acm.org/2020/program/award.html" >ACM SenSys 2020</a></li><br />
                   <li>Winner of the KTH one-year scholarship <a href="https://www.kth.se/en/studies/master/general/scholarships/kth-one-year-scholarship-1.290744" >KTH 2017</a></li><br />
                   </ul>
             </td>
           </tr>
-                  <table width="100%" align="center" border="0" cellspacing="-10" cellpadding="20">
+                  <table width="100%" align="center" border="0" cellspacing="-10" cellpadding="5">
           <tr>
              <td width="100%" valign="middle">
             <heading>Academic service</heading>
